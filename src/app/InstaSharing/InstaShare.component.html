@@ -1,0 +1,7 @@
+<div class = "a">
+<input type='file' class="add" (change)="onSelectFile($event)"  > <br><br>
+<img [src]="url" height="200"> <br> <br>
+</div>>
+
+<app-Pictures *ngFor = "let pictures of pics"  [picdata] = "pictures"></app-Pictures> <br>  
+

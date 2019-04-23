@@ -1,0 +1,17 @@
+.img1{
+    height:300px;
+    width:200px;
+  }
+  .img2{
+    height:10px;
+    width:5px;
+    color:#000000;
+   margin:left}
+      .img3{height:50px;
+      width:50px;}
+      .button-row button,
+  .example-button-row a {
+    margin-right: 8px;
+    border:1px solid ;
+        background-color: white;
+  }

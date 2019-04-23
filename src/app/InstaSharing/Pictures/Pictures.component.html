@@ -1,0 +1,21 @@
+ <div style="text-align:center">
+ <img class = "img3" [src]="picdata.Image">
+{{picdata.username}}
+Update their Profile Picture
+<br>
+  {{picdata.timestamp | date }} <br>
+<img class = "img1" [src]="picdata.Image"><br>
+<br>
+<div class="button-row">
+<button  title="Hit to Like" (click)="like($event)"><img class = "img2" src="https://media.istockphoto.com/vectors/flat-hand-like-icon-vector-id900030652?s=2048x2048">
+{{picdata.likes}} Like</button>
+<button  title="Hit to UnLike" (click)="unLike($event)">Unlike</button>
+<button  title="click to comment">comment</button>
+<button  title = "Share">Share</button>
+
+</div>
+</div>
+<br> 
+
+
+
